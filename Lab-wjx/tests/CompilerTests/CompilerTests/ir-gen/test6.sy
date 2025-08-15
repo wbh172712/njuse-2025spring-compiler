@@ -1,0 +1,5 @@
+int main() {
+    const int max = 2147483647; // INT_MAX
+    const int min = -2147483648; // INT_MIN
+    return max + min; // 应该返回255
+}

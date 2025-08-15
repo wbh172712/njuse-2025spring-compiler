@@ -1,0 +1,24 @@
+const int a = 1;
+int b = 2;
+int A[10] = {8, 7, 4};
+
+void print(int x) {
+}
+
+int func() {
+    int c;
+    {
+        print(a);
+        if (cond) {
+            c = a + b;
+            {
+            }
+        }
+        else if (cond2) {
+            return;
+        }
+        else
+            c = 1;
+    }
+    return -3;
+}

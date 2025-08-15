@@ -1,0 +1,93 @@
+int main() {
+    /* 质数计算部分 */
+    int prime_counter = 0;
+    int current_num = 2;
+    int max_check = 50;
+    int total_primes = 0;
+    
+    /* 斐波那契部分 */
+    int fib_a = 0;
+    int fib_b = 1;
+    int fib_temp;
+    int fib_count = 1;
+    int even_fib_sum = 0;
+    
+    /* 阶乘计算部分 */
+    int factorial = 1;
+    int fact_num = 5;
+    int fact_counter = 1;
+    
+    // 第一层循环：质数筛选
+    while (current_num < max_check) {
+        int is_prime = 1;
+        int divisor = 2;
+        
+        // 质数判断循环
+        while (divisor * divisor <= current_num) {
+            if (current_num % divisor == 0) {
+                is_prime = 0;
+                break;
+            }
+            divisor = divisor + 1;
+        }
+        
+        // 条件分支处理
+        if (is_prime == 1) {
+            total_primes = total_primes + current_num;
+            if (current_num > 10) {
+                prime_counter = prime_counter + 1;
+            }
+        } else {
+            prime_counter = prime_counter - 1;
+        }
+        current_num = current_num + 1;
+    }
+    
+    // 第二层循环：斐波那契计算
+    while (fib_count < 15) {
+        if (fib_a % 2 == 0) {
+            even_fib_sum = even_fib_sum + fib_a;
+        } else {
+            even_fib_sum = even_fib_sum - (fib_a / 2);
+        }
+        
+        // 生成下一个斐波那契数
+        fib_temp = fib_a + fib_b;
+        fib_a = fib_b;
+        fib_b = fib_temp;
+        fib_count = fib_count + 1;
+    }
+    
+    // 第三层循环：阶乘计算
+    while (fact_counter <= fact_num) {
+        factorial = factorial * fact_counter;
+        if (fact_counter % 2 == 0) {
+            fact_counter = fact_counter + 2;
+        } else {
+            fact_counter = fact_counter + 1;
+        }
+    }
+    
+    // 最终结果聚合
+    int final_result = 0;
+    if (total_primes > even_fib_sum) {
+        final_result = factorial - prime_counter;
+    } else if (total_primes < even_fib_sum) {
+        final_result = factorial + prime_counter;
+    } else {
+        final_result = prime_counter * 2;
+    }
+    
+    // 条件嵌套验证
+    while (final_result > 0) {
+        if (final_result % 3 == 0) {
+            final_result = final_result / 2;
+        } else if (final_result % 4 == 1) {
+            final_result = final_result - 5;
+        } else {
+            final_result = final_result - 1;
+        }
+    }
+    
+    return final_result;
+}

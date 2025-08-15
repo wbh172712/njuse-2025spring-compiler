@@ -1,0 +1,106 @@
+/* 全局变量和常量 */
+const int BASE = 10;
+int globalCounter = 0;
+
+/* 幂计算 */
+int power(int base, int exponent) {
+    int result = 1;
+    int i = 0;
+    
+    while (i < exponent) {
+        result = result * base;
+        i = i + 1;
+        
+        if (result > 1000) {
+            return result; // 提前返回
+        }
+    }
+    
+    return result;
+}
+
+/* 阶乘计算 */
+int factorial(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+/* 斐波那契数列计算 */
+int fibonacci(int n) {
+    globalCounter = globalCounter + 1;
+    if (n <= 1) {
+        return n;
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+/* 复杂计算函数 */
+int complexCalculation(int x, int y) {
+    int result = 0;
+    
+    if (x > y) {
+        result = power(x, 2) - power(y, 2);
+    } else if (x < y) {
+        result = factorial(y - x);
+    } else {
+        result = x * y + BASE;
+    }
+    
+    while (result > BASE) {
+        result = result - BASE;
+        if (result < BASE / 2) {
+            break;
+        }
+    }
+    
+    return result;
+}
+
+/* 嵌套作用域测试 */
+void nestedScopesTest() {
+    int a = 5;
+    {
+        int b = a + 3;
+        {
+            int a = b * 2; // 隐藏外层a
+            if (a > b) {
+                b = a - b;
+            } else {
+                b = b - a;
+            }
+        }
+        a = b + 1;
+    }
+    globalCounter = globalCounter + a;
+}
+
+/* 主函数 */
+int main() {
+    const int TEST_CASE = 5;
+    int testResults = 0;
+    
+    /* 测试1: 斐波那契数列 */
+    int fib = fibonacci(TEST_CASE);
+    testResults = testResults + fib; // 应加5 (fib(5)=5)
+    
+    /* 测试2: 复杂计算 */
+    int calc = complexCalculation(3, 5);
+    testResults = testResults + calc; // 应加2 (fact(2)=2)
+    
+    /* 测试3: 作用域测试 */
+    nestedScopesTest();
+    testResults = testResults + globalCounter; // 应加(5+1=6)
+    
+    /* 测试4: 幂计算 */
+    int pow = power(2, 5);
+    testResults = testResults + pow; // 应加32
+    
+    /* 测试5: 阶乘 */
+    int fact = factorial(TEST_CASE);
+    testResults = testResults + fact; // 应加120
+    
+    /* 最终验证 */
+    return testResults; // (5 + 1 + 6 + 32 + 120 = 164)
+}

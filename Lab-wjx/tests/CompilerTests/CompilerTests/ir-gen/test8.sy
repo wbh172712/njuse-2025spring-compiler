@@ -1,0 +1,25 @@
+int factorial(int n) {
+    int result = 1;
+    int i = 1;
+    while (i <= n) {
+        result = result * i;
+        i = i + 1;
+        if (i > 10) {
+            break;
+        }
+    }
+    return result;
+}
+
+int main() {
+    const int limit = 5;
+    int sum = 0;
+    
+    int j = 0;
+    while (j < limit) {
+        sum = sum + factorial(j);
+        j = j + 1;
+    }
+    
+    return sum;
+}

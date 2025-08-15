@@ -1,0 +1,6 @@
+int mmm(){
+    if(a)if(b)if(c)d=1;
+    else e=1;
+    else f=1;
+    else g=1;
+    }

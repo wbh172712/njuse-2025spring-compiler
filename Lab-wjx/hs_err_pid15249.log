@@ -1,0 +1,6 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007fa81a28eaf8, pid=15249, tid=15253
+#
+# JRE version: OpenJDK Runtime Environment (11.0.27+6) (build 11.0.27+6-post-Ubuntu-0ubuntu122.04)

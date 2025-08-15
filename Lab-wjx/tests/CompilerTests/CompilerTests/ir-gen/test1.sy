@@ -1,0 +1,55 @@
+const int a = 10;
+const int b = 20;
+int x = 5, y = 10;
+
+void do_nothing() {}
+
+int main() {
+    int i = 0;
+    while (i < 10) {
+        if (i % 2 == 0) {
+            x = x + i;
+        }
+        else {
+            y = x * i;
+        }
+        i = i + 1;
+    }
+    do_nothing();
+    return !i;
+}
+
+int sum(int x, int y) {
+    x = 10;
+    y = 20;
+    return x + y;
+}
+
+void test() {
+    int result = sum(a, b);
+    if (result > 10 && result < 15) {
+        result = result - 10;
+    }
+    else if (result < 20) {
+        result = result + 10;
+    }
+}
+
+int factorial(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    else {
+        return n * factorial(n - 1);
+    }
+}
+
+void calculate() {
+    int num = 5;
+    int fact = factorial(num);
+    int count = 0, max = 10;
+    while (count < max) {
+        count = count + 1;
+    }
+    return;
+}

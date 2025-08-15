@@ -1,0 +1,26 @@
+int counter = 0;
+
+int increment() {
+  counter = counter + 1;
+  return counter;
+}
+
+int main() {
+  int a = 1, b = 3;
+  if (a > b || !increment()) {
+    return increment();
+  }
+  counter = 3;
+  if (a > b && increment()) {
+    return increment();
+  }
+  counter = 6;
+  if (a < b && !increment()) {
+    return increment();
+  }
+  counter = 9;
+  if (a > b || increment()) {
+    return increment();
+  }
+  return 0;
+}

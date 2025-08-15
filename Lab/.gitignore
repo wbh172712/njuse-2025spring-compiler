@@ -1,0 +1,16 @@
+/src/*
+/lib
+!/src/*.java
+!/src/*.g4
+!/src/type
+/src/*Lexer.java
+/src/*Parser.java 
+/src/*ParserBaseListener.java
+/src/*ParserBaseVisitor.java
+/src/*ParserListener.java
+/src/*ParserVisitor.java
+/classes
+.DS_Store
+/out
+/.idea
+/Lab.iml

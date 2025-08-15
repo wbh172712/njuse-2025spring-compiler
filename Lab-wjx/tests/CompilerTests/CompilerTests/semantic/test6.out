@@ -1,0 +1,12 @@
+Error type 6 at Line 3: type.Type mismatched for operands.
+Error type 3 at Line 7: Redefined variable: k.
+Error type 6 at Line 8: type.Type mismatched for operands.
+Error type 8 at Line 8: Function is not applicable for arguments.
+Error type 8 at Line 8: Function is not applicable for arguments.
+Error type 10 at Line 13: Not a function: f.
+Error type 5 at Line 17: type.Type mismatched for assignment.
+Error type 5 at Line 21: type.Type mismatched for assignment.
+Error type 1 at Line 26: Undefined variable: c.
+Error type 9 at Line 32: Not an array: c[].
+Error type 6 at Line 33: type.Type mismatched for operands.
+Error type 8 at Line 34: Function is not applicable for arguments.

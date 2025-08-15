@@ -1,0 +1,29 @@
+Instruction:   %x = alloca i32, align 4
+In: 
+Out: 
+RegOut: 
+Instruction:   store i32 1, i32* %x, align 4
+In: 
+Out: 
+x -> CONST(1)
+RegOut: 
+Instruction:   store i32 2, i32* %x, align 4
+In: 
+x -> CONST(1)
+Out: 
+x -> CONST(2)
+RegOut: 
+Instruction:   ret i32 2
+In: 
+x -> CONST(2)
+Out: 
+x -> CONST(2)
+RegOut: 
+AllInstruction Pre: 
+  store i32 1, i32* %x, align 4 ->   %x = alloca i32, align 4
+  store i32 2, i32* %x, align 4 ->   %x = alloca i32, align 4
+  store i32 2, i32* %x, align 4 ->   store i32 1, i32* %x, align 4
+  ret i32 2 ->   %x = alloca i32, align 4
+  ret i32 2 ->   store i32 1, i32* %x, align 4
+  ret i32 2 ->   store i32 2, i32* %x, align 4
+

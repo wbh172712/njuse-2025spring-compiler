@@ -1,0 +1,86 @@
+int globalVar = 100;
+
+const int GLOBAL_CONST = 1024;
+
+int complexFunction(int param1, int param2) {
+    int localResult = 0;
+    
+    if (param1 > param2) {
+        localResult = param1 - param2;
+    } else if (param1 < param2) {
+        localResult = param2 - param1;
+        while (localResult < GLOBAL_CONST) {
+            localResult = localResult * 2;
+            if (localResult > globalVar) {
+                break;
+            }
+        }
+        {
+        }
+    } else 
+        localResult = param1 * param2;
+    
+    return localResult;
+}
+
+void nestedBlocks() {
+    {
+        int x = 5;
+        {
+            int y = x + 3;
+            {
+                int z = y * 2;
+                if (z > 10) {
+                    z = z - 1;
+                }
+            }
+        }
+    }
+}
+
+int factorial(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+int mixedOperations(int a, int b) {
+    int temp = (a + b) * (a - b);
+    temp = temp % GLOBAL_CONST;
+    temp = temp / (b + 1);
+    return temp;
+}
+
+int main() {
+    const int localConst = 42;
+    int result1 = 0;
+    int result2 = 0;
+    int counter = 0;
+    
+    result1 = complexFunction(globalVar, localConst);
+    
+    while (counter < 5) {
+        result2 = result2 + mixedOperations(result1, counter);
+        counter = counter + 1;
+        
+        if (counter == 3)
+            continue;
+        
+        if (result2 > 1000) {
+            break;
+        }
+    }
+    
+    nestedBlocks();
+    
+    int finalResult = factorial(result2 % 6);
+    
+    if (finalResult > 10 && result1 < 200 || result2 == 0) {
+        finalResult = finalResult + globalVar;
+    } else {
+        finalResult = finalResult - GLOBAL_CONST;
+    }
+    
+    return finalResult;
+}

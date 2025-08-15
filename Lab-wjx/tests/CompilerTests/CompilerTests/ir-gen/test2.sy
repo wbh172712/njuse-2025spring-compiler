@@ -1,0 +1,20 @@
+int max(int x, int y) {
+    if (x > y) {
+        return x;
+    } else {
+        return y;
+    }
+}
+
+int gcd(int a, int b) {
+    while (b) {
+        int r = a % b;
+        a = b;
+        b = r;
+    }
+    return a;
+}
+
+int main() {
+    return max(gcd(7, 2), gcd(18, 12));
+}

@@ -1,0 +1,36 @@
+int main(int argc, int argv[][3]) {
+  int array[2] = {1, 2};
+  int a[3] = -array;
+  return 0;
+}
+
+int f(int k, int k) {
+  return main(-main, 3);
+}
+
+void test() {
+  int f;
+  int b = f(f);
+  int a[3][3][3];
+  int c[2][2];
+  a[1] = c;
+  a[1][1] = c;
+}
+
+void test2() {
+  int a = {1, 2};
+  {
+    int b = 3;
+  }
+  int b = 4;
+  if (c) {
+    b = 5;
+  } else {
+    b = 6;
+  }
+  int c[3];
+  c[1][3] = 2;
+  if (c > 7) {
+    f();
+  }
+}

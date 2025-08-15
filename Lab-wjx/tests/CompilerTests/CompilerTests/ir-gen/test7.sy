@@ -1,0 +1,17 @@
+int count = 0;
+int n = 3;
+
+void hanoi(int n, int source, int target, int auxiliary) {
+    if (n == 1) {
+        count = count + 1;
+        return;
+    }
+    hanoi(n - 1, source, auxiliary, target);
+    count = count + 1;
+    hanoi(n - 1, auxiliary, target, source);
+}
+
+int main() {
+    hanoi(n, 1, 3, 2);
+    return count;
+}

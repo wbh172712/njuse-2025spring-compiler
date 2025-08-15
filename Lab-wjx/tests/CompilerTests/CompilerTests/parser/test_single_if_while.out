@@ -1,0 +1,18 @@
+int main() {
+    if (1)
+        a = b;
+    else
+        c = b;
+    while (1)
+        a = b;
+    if (2) {
+        a - 1;
+    }
+    else
+        +b;
+    if (2)
+        -d;
+    else {
+        p;
+    }
+}

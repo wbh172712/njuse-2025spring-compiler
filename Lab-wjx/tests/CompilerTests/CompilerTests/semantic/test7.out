@@ -1,0 +1,180 @@
+Error type 7 at Line 1: type.Type mismatched for return.
+Error type 5 at Line 1: type.Type mismatched for assignment.
+Error type 5 at Line 2: type.Type mismatched for assignment.
+Error type 3 at Line 2: Redefined variable: vvv2.
+Error type 3 at Line 2: Redefined variable: vvv2.
+Error type 3 at Line 2: Redefined variable: hmyyyds.
+Error type 1 at Line 2: Undefined variable: aaa1.
+Error type 1 at Line 2: Undefined variable: ddd1.
+Error type 1 at Line 3: Undefined variable: bbb1.
+Error type 6 at Line 3: type.Type mismatched for operands.
+Error type 6 at Line 3: type.Type mismatched for operands.
+Error type 6 at Line 3: type.Type mismatched for operands.
+Error type 2 at Line 4: Undefined function: ccc.
+Error type 5 at Line 4: type.Type mismatched for assignment.
+Error type 3 at Line 4: Redefined variable: bbb1.
+Error type 5 at Line 4: type.Type mismatched for assignment.
+Error type 3 at Line 4: Redefined variable: ddd1.
+Error type 3 at Line 4: Redefined variable: ddd1.
+Error type 3 at Line 4: Redefined variable: bbb1.
+Error type 3 at Line 4: Redefined variable: aaa1.
+Error type 3 at Line 4: Redefined variable: aaa1.
+Error type 3 at Line 4: Redefined variable: ddd1.
+Error type 3 at Line 4: Redefined variable: hmyyyds.
+Error type 3 at Line 4: Redefined variable: ddd1.
+Error type 3 at Line 4: Redefined variable: bbb1.
+Error type 3 at Line 4: Redefined variable: ddd1.
+Error type 3 at Line 4: Redefined variable: vvv2.
+Error type 3 at Line 4: Redefined variable: ddd1.
+Error type 3 at Line 4: Redefined variable: aaa1.
+Error type 3 at Line 4: Redefined variable: aaa1.
+Error type 3 at Line 4: Redefined variable: hmyyyds.
+Error type 3 at Line 4: Redefined variable: ddd1.
+Error type 3 at Line 4: Redefined variable: ccc1.
+Error type 3 at Line 4: Redefined variable: hmyyyds.
+Error type 2 at Line 4: Undefined function: ccc.
+Error type 6 at Line 4: type.Type mismatched for operands.
+Error type 9 at Line 4: Not an array: bbb1.
+Error type 9 at Line 4: Not an array: bbb1.
+Error type 3 at Line 6: Redefined variable: ddd1.
+Error type 3 at Line 6: Redefined variable: ddd1.
+Error type 3 at Line 6: Redefined variable: hmyyyds.
+Error type 3 at Line 6: Redefined variable: aaa1.
+Error type 3 at Line 6: Redefined variable: hmyyyds.
+Error type 3 at Line 6: Redefined variable: hmyyyds.
+Error type 3 at Line 6: Redefined variable: vvv2.
+Error type 3 at Line 6: Redefined variable: vvv2.
+Error type 3 at Line 6: Redefined variable: hmyyyds.
+Error type 3 at Line 6: Redefined variable: ccc1.
+Error type 3 at Line 6: Redefined variable: ccc1.
+Error type 8 at Line 8: Function is not applicable for arguments.
+Error type 5 at Line 8: type.Type mismatched for assignment.
+Error type 3 at Line 8: Redefined variable: aaa1.
+Error type 9 at Line 8: Not an array: aaa1.
+Error type 2 at Line 9: Undefined function: bbb.
+Error type 6 at Line 9: type.Type mismatched for operands.
+Error type 3 at Line 9: Redefined variable: aaa1.
+Error type 3 at Line 9: Redefined variable: bbb1.
+Error type 9 at Line 9: Not an array: hmyyyds.
+Error type 3 at Line 10: Redefined variable: hmyyyds.
+Error type 3 at Line 10: Redefined variable: ccc1.
+Error type 3 at Line 10: Redefined variable: hmyyyds.
+Error type 3 at Line 10: Redefined variable: aaa1.
+Error type 3 at Line 10: Redefined variable: hmyyyds.
+Error type 3 at Line 10: Redefined variable: hmyyyds.
+Error type 3 at Line 10: Redefined variable: hmyyyds.
+Error type 3 at Line 10: Redefined variable: ccc1.
+Error type 3 at Line 10: Redefined variable: hmyyyds.
+Error type 9 at Line 10: Not an array: vvv2.
+Error type 3 at Line 10: Redefined variable: bbb1.
+Error type 3 at Line 10: Redefined variable: vvv2.
+Error type 3 at Line 10: Redefined variable: aaa1.
+Error type 3 at Line 10: Redefined variable: hmyyyds.
+Error type 3 at Line 10: Redefined variable: ccc1.
+Error type 3 at Line 10: Redefined variable: bbb1.
+Error type 3 at Line 10: Redefined variable: ddd1.
+Error type 3 at Line 10: Redefined variable: aaa1.
+Error type 3 at Line 10: Redefined variable: hmyyyds.
+Error type 3 at Line 10: Redefined variable: bbb1.
+Error type 2 at Line 10: Undefined function: bbb.
+Error type 6 at Line 10: type.Type mismatched for operands.
+Error type 6 at Line 10: type.Type mismatched for operands.
+Error type 9 at Line 10: Not an array: vvv2.
+Error type 6 at Line 10: type.Type mismatched for operands.
+Error type 3 at Line 11: Redefined variable: aaa1.
+Error type 3 at Line 11: Redefined variable: ccc1.
+Error type 3 at Line 11: Redefined variable: ccc1.
+Error type 3 at Line 11: Redefined variable: vvv2.
+Error type 2 at Line 11: Undefined function: ccc.
+Error type 9 at Line 11: Not an array: ccc1.
+Error type 2 at Line 12: Undefined function: ccc.
+Error type 9 at Line 12: Not an array: aaa1.
+Error type 9 at Line 12: Not an array: vvv2.
+Error type 9 at Line 13: Not an array: vvv2.
+Error type 9 at Line 13: Not an array: vvv2.
+Error type 8 at Line 14: Function is not applicable for arguments.
+Error type 3 at Line 15: Redefined variable: aaa1.
+Error type 3 at Line 15: Redefined variable: aaa1.
+Error type 3 at Line 15: Redefined variable: aaa1.
+Error type 3 at Line 15: Redefined variable: vvv2.
+Error type 3 at Line 15: Redefined variable: ddd1.
+Error type 3 at Line 15: Redefined variable: vvv2.
+Error type 2 at Line 15: Undefined function: bbb.
+Error type 6 at Line 15: type.Type mismatched for operands.
+Error type 3 at Line 16: Redefined variable: vvv2.
+Error type 3 at Line 16: Redefined variable: hmyyyds.
+Error type 3 at Line 16: Redefined variable: ccc1.
+Error type 9 at Line 16: Not an array: bbb1.
+Error type 1 at Line 16: Undefined variable: ddd1.
+Error type 6 at Line 16: type.Type mismatched for operands.
+Error type 6 at Line 16: type.Type mismatched for operands.
+Error type 2 at Line 16: Undefined function: ccc.
+Error type 6 at Line 16: type.Type mismatched for operands.
+Error type 3 at Line 17: Redefined variable: ddd1.
+Error type 3 at Line 17: Redefined variable: ccc1.
+Error type 3 at Line 17: Redefined variable: vvv2.
+Error type 3 at Line 17: Redefined variable: vvv2.
+Error type 3 at Line 17: Redefined variable: ccc1.
+Error type 3 at Line 17: Redefined variable: bbb1.
+Error type 3 at Line 17: Redefined variable: hmyyyds.
+Error type 3 at Line 17: Redefined variable: hmyyyds.
+Error type 3 at Line 17: Redefined variable: ccc1.
+Error type 3 at Line 17: Redefined variable: ccc1.
+Error type 3 at Line 17: Redefined variable: vvv2.
+Error type 9 at Line 17: Not an array: aaa1.
+Error type 3 at Line 17: Redefined variable: bbb1.
+Error type 3 at Line 17: Redefined variable: vvv2.
+Error type 3 at Line 17: Redefined variable: hmyyyds.
+Error type 3 at Line 17: Redefined variable: vvv2.
+Error type 3 at Line 17: Redefined variable: ccc1.
+Error type 3 at Line 17: Redefined variable: aaa1.
+Error type 8 at Line 17: Function is not applicable for arguments.
+Error type 3 at Line 17: Redefined variable: bbb1.
+Error type 3 at Line 17: Redefined variable: ddd1.
+Error type 3 at Line 17: Redefined variable: ccc1.
+Error type 3 at Line 17: Redefined variable: bbb1.
+Error type 3 at Line 17: Redefined variable: bbb1.
+Error type 3 at Line 17: Redefined variable: hmyyyds.
+Error type 3 at Line 18: Redefined variable: vvv2.
+Error type 3 at Line 18: Redefined variable: bbb1.
+Error type 3 at Line 18: Redefined variable: bbb1.
+Error type 3 at Line 18: Redefined variable: vvv2.
+Error type 3 at Line 18: Redefined variable: ddd1.
+Error type 3 at Line 18: Redefined variable: bbb1.
+Error type 1 at Line 19: Undefined variable: hmyyyds.
+Error type 3 at Line 19: Redefined variable: ddd1.
+Error type 3 at Line 19: Redefined variable: ddd1.
+Error type 3 at Line 19: Redefined variable: aaa1.
+Error type 4 at Line 20: Redefined function: bbb.
+Error type 4 at Line 21: Redefined function: bbb.
+Error type 4 at Line 110: Redefined function: aaa.
+Error type 5 at Line 113: type.Type mismatched for assignment.
+Error type 1 at Line 113: Undefined variable: vvv2.
+Error type 3 at Line 113: Redefined variable: vvv2.
+Error type 3 at Line 113: Redefined variable: ddd1.
+Error type 3 at Line 113: Redefined variable: vvv2.
+Error type 3 at Line 113: Redefined variable: hmyyyds.
+Error type 3 at Line 113: Redefined variable: ccc1.
+Error type 3 at Line 113: Redefined variable: ccc1.
+Error type 3 at Line 113: Redefined variable: ccc1.
+Error type 3 at Line 113: Redefined variable: hmyyyds.
+Error type 3 at Line 113: Redefined variable: aaa1.
+Error type 3 at Line 113: Redefined variable: ddd1.
+Error type 7 at Line 113: type.Type mismatched for return.
+Error type 3 at Line 113: Redefined variable: hmyyyds.
+Error type 7 at Line 113: type.Type mismatched for return.
+Error type 3 at Line 114: Redefined variable: aaa1.
+Error type 3 at Line 114: Redefined variable: ccc1.
+Error type 3 at Line 114: Redefined variable: aaa1.
+Error type 3 at Line 114: Redefined variable: bbb1.
+Error type 3 at Line 114: Redefined variable: vvv2.
+Error type 9 at Line 114: Not an array: hmyyyds.
+Error type 9 at Line 114: Not an array: bbb1.
+Error type 3 at Line 115: Redefined variable: ddd1.
+Error type 3 at Line 115: Redefined variable: hmyyyds.
+Error type 3 at Line 115: Redefined variable: ddd1.
+Error type 3 at Line 115: Redefined variable: aaa1.
+Error type 3 at Line 115: Redefined variable: aaa1.
+Error type 3 at Line 115: Redefined variable: vvv2.
+Error type 3 at Line 115: Redefined variable: bbb1.
+Error type 4 at Line 116: Redefined function: aaa.

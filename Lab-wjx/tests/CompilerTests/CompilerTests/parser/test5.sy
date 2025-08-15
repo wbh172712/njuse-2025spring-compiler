@@ -1,0 +1,11 @@
+const int arr[2] = {}, matrix[2][2] = {{1, 2}, {3, 4}};
+int a, b = 10;
+int sum(int x, int y[]) {
+    return x + y;
+}
+void main() {
+    int result = sum(a, b);
+    if (result > 10) result = result - 10;
+    else result = result + 10;
+    return;
+}
